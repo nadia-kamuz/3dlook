@@ -447,7 +447,7 @@ button {
   margin-top: 40px;
   text-transform: uppercase;
 }
-.social table .btn {
+.social table .btn3 {
   display: block;
   margin: 0 auto;
 }
@@ -675,7 +675,7 @@ button {
   }
 
   .content .hidden-desktop.article table tr:nth-child(2) td {
-    height: 233px !important;
+    height: 255px !important;
   }
 
   .problem table #follow-mobile {
@@ -689,12 +689,7 @@ button {
     display: none !important;
   }
 }
-@media screen and (max-width: 341px) {
-  .content .hidden-desktop.article table tr:nth-child(2) td {
-    height: 255px !important;
-  }
-}
-@media screen and (max-width: 339px) {
+@media screen and (max-width: 336px) {
   .content .hidden-desktop.article table tr:nth-child(2) td {
     height: 275px !important;
   }
@@ -708,7 +703,7 @@ button {
   width: 480px;
   text-align: center;
 }
-.problem table .btn {
+.problem table .btn2 {
   display: block;
   z-index: 10;
   height: 27px;
@@ -729,9 +724,6 @@ button {
   padding-bottom: 15px;
   margin: 0 auto;
   margin-top: 30px;
-}
-.problem table .btn:hover {
-  box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0);
 }
 .problem table #follow-mobile {
   display: none;

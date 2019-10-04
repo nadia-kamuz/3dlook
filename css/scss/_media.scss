@@ -295,7 +295,7 @@
                     tr {
                         &:nth-child(2) {
                             td {
-                                height: 233px !important;
+                                height: 255px !important;
                             }
                         }
                     }
@@ -321,25 +321,9 @@
     }
 }
 
-@media screen and (max-width: 341px) {
-   .content {
-        .hidden-desktop {
-            &.article {
-                table {
-                    tr {
-                        &:nth-child(2) {
-                            td {
-                                height: 255px !important;
-                            }
-                        }
-                    }
-                }
-            }
-        }
-    }
-}
 
-@media screen and (max-width: 339px) {
+
+@media screen and (max-width: 336px) {
    .content {
         .hidden-desktop {
             &.article {
