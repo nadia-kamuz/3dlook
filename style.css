@@ -159,7 +159,7 @@ ul li a {
 }
 .header .header-table .header-navigation li:hover {
   opacity: 1;
-  color: #FFC200;
+  color: #FFC200 !important;
 }
 .header .header-table .products-navigation {
   border-collapse: collapse;
@@ -207,7 +207,7 @@ ul li a {
 }
 .header .header-table .products-navigation td a:hover {
   opacity: 1;
-  color: #FFC200;
+  color: #FFC200 !important;
 }
 .header .header-table .products-navigation .link td a {
   padding-top: 200px;
@@ -708,7 +708,7 @@ button {
   z-index: 10;
   height: 27px;
   width: 280px;
-  color: #5e4eff;
+  color: #5e4eff !important;
   border: 2px solid #5e4eff;
   background-color: transparent;
   font-family: "Roboto", sans-serif;
