@@ -116,7 +116,7 @@ ul li a {
 .header .header-table {
   width: 600px;
   height: 205px;
-  background-image: url("img/top-header.png");
+  background-image: url("https://nadia-kamuz.github.io/3dlook/img/top-header.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -180,13 +180,13 @@ ul li a {
   top: 11px;
 }
 .header .header-table .products-navigation td:nth-child(1)::after {
-  right: 20px;
+  right: 30px;
 }
 .header .header-table .products-navigation td:nth-child(2):after {
-  right: -38px;
+  right: -25px;
 }
 .header .header-table .products-navigation td:nth-child(2) a {
-  padding-left: 65px;
+  padding-left: 35px;
 }
 .header .header-table .products-navigation td:nth-child(3):after {
   display: none;
