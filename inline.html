@@ -7,7 +7,8 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>3DLOOK</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald:700|Roboto:400,700&display=swap">
-    <style>@import url("https://fonts.googleapis.com/css?family=Oswald:700|Roboto:400,700&display=swap");
+    <style>
+      @import url("https://fonts.googleapis.com/css?family=Oswald:700|Roboto:400,700&display=swap");
 body {
   margin: 0;
   padding: 0;
@@ -168,7 +169,7 @@ ul li a {
 }
 .header .header-table .header-navigation li:hover {
   opacity: 1;
-  color: #FFC200;
+  color: #FFC200 !important;
 }
 .header .header-table .products-navigation {
   border-collapse: collapse;
@@ -216,7 +217,7 @@ ul li a {
 }
 .header .header-table .products-navigation td a:hover {
   opacity: 1;
-  color: #FFC200;
+  color: #FFC200 !important;
 }
 .header .header-table .products-navigation .link td a {
   padding-top: 200px;
@@ -480,6 +481,35 @@ button {
   color: #cdcdcd;
 }
 
+.problem table {
+  width: 480px;
+  text-align: center;
+}
+.problem table .btn2 {
+  display: block;
+  z-index: 10;
+  height: 27px;
+  width: 280px;
+  color: #5e4eff !important;
+  border: 2px solid #5e4eff;
+  background-color: transparent;
+  font-family: "Roboto", sans-serif;
+  text-transform: capitalize;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 15px;
+  text-align: center;
+  overflow: hidden;
+  text-decoration: none;
+  cursor: pointer;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+.problem table #follow-mobile {
+  display: none;
+}
 @media screen and (max-width: 600px) {
   .hidden-mobile {
     display: none !important;
@@ -708,35 +738,6 @@ button {
     height: 275px !important;
   }
 }
-.problem table {
-  width: 480px;
-  text-align: center;
-}
-.problem table .btn2 {
-  display: block;
-  z-index: 10;
-  height: 27px;
-  width: 280px;
-  color: #5e4eff;
-  border: 2px solid #5e4eff;
-  background-color: transparent;
-  font-family: "Roboto", sans-serif;
-  text-transform: capitalize;
-  font-size: 12px;
-  font-weight: 400;
-  line-height: 15px;
-  text-align: center;
-  overflow: hidden;
-  text-decoration: none;
-  cursor: pointer;
-  padding-top: 15px;
-  padding-bottom: 15px;
-  margin: 0 auto;
-  margin-top: 30px;
-}
-.problem table #follow-mobile {
-  display: none;
-}
 </style>
 </head>
 <body>
@@ -856,15 +857,15 @@ button {
         </tr>
         <tr class="problem">
             <td style="font-family: &quot;Roboto&quot;, Arial, sans-serif;position: relative;z-index: 3;padding: 0;margin: 0;">
-                <table width="480" align="center" border="0" cellpadding="0" cellspacing="0" style="margin: 0 auto;border-collapse: collapse;border-spacing: 0;">
+                <table width="480" align="center" border="0" cellpadding="0" cellspacing="0" style="margin: 0 auto;border-collapse: collapse;border-spacing: 0;width: 480px;text-align: center;">
                     <tr>
                         <td id="follow-desktop" style="font-family: &quot;Roboto&quot;, Arial, sans-serif;position: relative;z-index: 3;padding: 0;margin: 0;">
                             <a href="https://www.facebook.com/3DLOOK.me/photos/a.1177308205675362/3087536271319203/?type=3&av=1175292442543605&eav=Afb_LUvfle6FE8PE7ERpDLezYAaeXt_OPCihGTII_X_yCdNCAMwZY2MDWTEjNGq7pFDGcRbbPZD383UlFBKL29Z7&theater" style="color: #282828;font-family: &quot;Roboto&quot;, Arial, sans-serif;text-decoration: none;"><img src="https://nadia-kamuz.github.io/3dlook/img/the-problem.png" alt="The problem of retail clothing returns"></a>
-                            <a class="btn2" href="https://www.facebook.com/3DLOOK.me/photos/a.1177308205675362/3087536271319203/?type=3&av=1175292442543605&eav=Afb_LUvfle6FE8PE7ERpDLezYAaeXt_OPCihGTII_X_yCdNCAMwZY2MDWTEjNGq7pFDGcRbbPZD383UlFBKL29Z7&theater" target="_blank" style="color: #282828; font-family: &quot;Roboto&quot;, Arial, sans-serif;text-decoration: none;">Almost 40% of all online clothing <br>purchases are returned</a>
+                            <a class="btn2" href="https://www.facebook.com/3DLOOK.me/photos/a.1177308205675362/3087536271319203/?type=3&av=1175292442543605&eav=Afb_LUvfle6FE8PE7ERpDLezYAaeXt_OPCihGTII_X_yCdNCAMwZY2MDWTEjNGq7pFDGcRbbPZD383UlFBKL29Z7&theater" target="_blank" style="color: #5e4eff !important;font-family: &quot;Roboto&quot;, sans-serif;text-decoration: none;display: block;z-index: 10;height: 27px;width: 280px;border: 2px solid #5e4eff;background-color: transparent;text-transform: capitalize;font-size: 12px;font-weight: 400;line-height: 15px;text-align: center;overflow: hidden;cursor: pointer;padding-top: 15px;padding-bottom: 15px;margin: 0 auto;margin-top: 30px;">Almost 40% of all online clothing <br>purchases are returned</a>
                         </td>
-                        <td id="follow-mobile" style="font-family: &quot;Roboto&quot;, Arial, sans-serif;position: relative;z-index: 3;padding: 0;margin: 0;">
+                        <td id="follow-mobile" style="font-family: &quot;Roboto&quot;, Arial, sans-serif;position: relative;z-index: 3;padding: 0;margin: 0;display: none;">
                             <a href="https://www.facebook.com/3DLOOK.me/photos/a.1177308205675362/3087536271319203/?type=3&av=1175292442543605&eav=Afb_LUvfle6FE8PE7ERpDLezYAaeXt_OPCihGTII_X_yCdNCAMwZY2MDWTEjNGq7pFDGcRbbPZD383UlFBKL29Z7&theater" style="color: #282828;font-family: &quot;Roboto&quot;, Arial, sans-serif;text-decoration: none;"><img src="https://nadia-kamuz.github.io/3dlook/img/the-problem-small.png" alt="The problem of retail clothing returns"></a>
-                            <a class="btn2" href="https://www.facebook.com/3DLOOK.me/photos/a.1177308205675362/3087536271319203/?type=3&av=1175292442543605&eav=Afb_LUvfle6FE8PE7ERpDLezYAaeXt_OPCihGTII_X_yCdNCAMwZY2MDWTEjNGq7pFDGcRbbPZD383UlFBKL29Z7&theater" target="_blank" style="color: #282828;font-family: &quot;Roboto&quot;, Arial, sans-serif;text-decoration: none;">Almost 40% of all online clothing <br>purchases are returned</a>
+                            <a class="btn2" href="https://www.facebook.com/3DLOOK.me/photos/a.1177308205675362/3087536271319203/?type=3&av=1175292442543605&eav=Afb_LUvfle6FE8PE7ERpDLezYAaeXt_OPCihGTII_X_yCdNCAMwZY2MDWTEjNGq7pFDGcRbbPZD383UlFBKL29Z7&theater" target="_blank" style="color: #5e4eff !important;font-family: &quot;Roboto&quot;, sans-serif;text-decoration: none;display: block;z-index: 10;height: 27px;width: 280px;border: 2px solid #5e4eff;background-color: transparent;text-transform: capitalize;font-size: 12px;font-weight: 400;line-height: 15px;text-align: center;overflow: hidden;cursor: pointer;padding-top: 15px;padding-bottom: 15px;margin: 0 auto;margin-top: 30px;">Almost 40% of all online clothing <br>purchases are returned</a>
                         </td>
                     </tr>
                 </table>
