@@ -341,21 +341,3 @@
         }
     }
 }
-
-@media screen and (max-width: 332px) {
-   .content {
-        .hidden-desktop {
-            &.article {
-                table {
-                    tr {
-                        &:nth-child(2) {
-                            td {
-                                height: 275px !important;
-                            }
-                        }
-                    }
-                }
-            }
-        }
-    }
-}

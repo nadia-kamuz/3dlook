@@ -697,11 +697,6 @@ button {
     height: 275px !important;
   }
 }
-@media screen and (max-width: 332px) {
-  .content .hidden-desktop.article table tr:nth-child(2) td {
-    height: 275px !important;
-  }
-}
 .problem table {
   width: 480px;
   text-align: center;

@@ -7,8 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>3DLOOK</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald:700|Roboto:400,700&display=swap">
-    <style>
-      @import url("https://fonts.googleapis.com/css?family=Oswald:700|Roboto:400,700&display=swap");
+    <style>@import url("https://fonts.googleapis.com/css?family=Oswald:700|Roboto:400,700&display=swap");
 body {
   margin: 0;
   padding: 0;
@@ -482,7 +481,268 @@ button {
 .footer .desc-table .desc a {
   color: #cdcdcd;
 }
-    </style>
+
+@media screen and (max-width: 600px) {
+  .hidden-mobile {
+    display: none !important;
+  }
+
+  .contact > td,
+.hello > td,
+.returns > td,
+.footer > td {
+    padding: 0 20px !important;
+  }
+
+  .social-icons td {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+  }
+  .social-icons td a {
+    text-align: center;
+    line-height: 45px;
+  }
+  .social-icons td a img {
+    display: inline-block;
+    max-width: 22px;
+  }
+
+  table {
+    width: 100% !important;
+  }
+  table.hidden-desktop {
+    display: table !important;
+  }
+  table.hidden-mobile {
+    display: none;
+  }
+  table tr.hidden-desktop {
+    display: table-row !important;
+  }
+  table tr.hidden-mobile {
+    display: none;
+  }
+  table tr td.hidden-desktop {
+    display: table-cell !important;
+  }
+  table tr td.hidden-mobile {
+    display: none;
+  }
+
+  .header .header-table {
+    height: 225px;
+  }
+  .header .header-table .header-logo-container {
+    padding-left: 20px !important;
+    vertical-align: top;
+  }
+  .header .header-table .header-logo-container .header-logo {
+    margin-bottom: 97px !important;
+  }
+  .header .header-table .header-navigation-container {
+    padding-right: 0;
+  }
+  .header .header-table .header-navigation-container .header-navigation {
+    margin-right: 38px !important;
+  }
+  .header .header-table .hidden-desktop .products-navigation {
+    margin: 0 !important;
+    margin-bottom: 10px !important;
+    padding: 0 20px !important;
+  }
+  .header .header-table .hidden-desktop .products-navigation td:after {
+    display: none;
+  }
+  .header .header-table .hidden-desktop .products-navigation td a {
+    font-size: 14px !important;
+    line-height: 16px !important;
+    color: #fff !important;
+    opacity: 1;
+    white-space: nowrap;
+    display: block;
+    margin-bottom: 10px;
+    margin-left: 20px;
+  }
+
+  .article.hidden-desktop span a {
+    position: absolute;
+    bottom: -27px;
+    left: 50%;
+    width: 189px !important;
+    margin-left: -94px;
+  }
+  .article > td {
+    padding: 20px !important;
+  }
+
+  .social .hidden-desktop {
+    text-align: center;
+  }
+
+  .contact .hidden-desktop .title h2 {
+    margin-top: 30px;
+  }
+  .contact .hidden-desktop .avatar {
+    display: inline-block;
+    width: 100px;
+  }
+  .contact .hidden-desktop .avatar img {
+    width: 100%;
+    max-width: 100px;
+    margin-top: 9px;
+  }
+  .contact .hidden-desktop .contact-info {
+    display: inline-block;
+    width: calc(100% - 100px);
+    box-sizing: border-box;
+    padding-left: 30px !important;
+    padding-top: 10px !important;
+  }
+  .contact .hidden-desktop .contact-info .name {
+    margin: 0;
+    margin-bottom: 5px !important;
+    font-size: 14px;
+    line-height: 16px;
+    color: #000;
+    font-weight: 700;
+  }
+  .contact .hidden-desktop .contact-info .position {
+    margin: 0 !important;
+    font-size: 12px;
+    line-height: 14px;
+    color: #000;
+  }
+  .contact .social-icons td {
+    margin: 30px 15px 20px 0 !important;
+    width: 40px !important;
+    height: 40px !important;
+  }
+  .contact .social-icons td a {
+    line-height: 56px !important;
+  }
+  .contact .social-icons td a img {
+    max-width: 32px !important;
+    width: 32px !important;
+  }
+  .contact .social-icons td .instagram {
+    line-height: 62px !important;
+  }
+  .contact .social-icons td .facebook {
+    line-height: 62px !important;
+  }
+  .contact .social-icons td .facebook img {
+    width: 15px !important;
+  }
+  .contact .address {
+    font-size: 12px;
+    line-height: 20px;
+    margin-right: 10px;
+    color: #9ca4b1;
+  }
+  .contact .address.second {
+    font-size: 12px;
+    line-height: 20px;
+    color: #9ca4b1;
+  }
+
+  .content .hidden-desktop.article table tr:nth-child(2) td {
+    height: 155px !important;
+  }
+}
+@media screen and (max-width: 500px) {
+  table {
+    width: 100%;
+  }
+
+  .header .header-table .header-logo-container .header-logo {
+    width: 113px !important;
+    height: 16px !important;
+  }
+  .header .header-table .header-navigation-container {
+    top: 2px;
+  }
+  .header .header-table .header-navigation-container .header-navigation {
+    margin-top: 6px !important;
+    margin-right: 10px !important;
+  }
+  .header .header-table .header-navigation-container .header-navigation li {
+    margin-top: 4px !important;
+    margin-right: 20px !important;
+  }
+}
+@media screen and (max-width: 360px) {
+  .social table h3 {
+    margin: 10px 0 10px 20px !important;
+  }
+  .social table #follow-mobile {
+    display: table-cell !important;
+  }
+  .social table #follow-mobile img {
+    display: block;
+    margin: 0 auto;
+  }
+  .social table #follow-desktop {
+    display: none !important;
+  }
+
+  .content .hidden-desktop.article table tr:nth-child(2) td {
+    height: 255px !important;
+  }
+
+  .problem table #follow-mobile {
+    display: table-cell !important;
+  }
+  .problem table #follow-mobile img {
+    display: block;
+    margin: 0 auto;
+  }
+  .problem table #follow-desktop {
+    display: none !important;
+  }
+}
+@media screen and (max-width: 336px) {
+  .content .hidden-desktop.article table tr:nth-child(2) td {
+    height: 275px !important;
+  }
+}
+@media screen and (max-width: 332px) {
+  .content .hidden-desktop.article table tr:nth-child(2) td {
+    height: 275px !important;
+  }
+}
+.problem table {
+  width: 480px;
+  text-align: center;
+}
+.problem table .btn2 {
+  display: block;
+  z-index: 10;
+  height: 27px;
+  width: 280px;
+  color: #5e4eff !important;
+  border: 2px solid #5e4eff;
+  background-color: transparent;
+  font-family: "Roboto", sans-serif;
+  text-transform: capitalize;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 15px;
+  text-align: center;
+  overflow: hidden;
+  text-decoration: none;
+  cursor: pointer;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+.problem table #follow-mobile {
+  display: none;
+}
+
+/*# sourceMappingURL=style.css.map */
+</style>
 </head>
 <body>
     <div class="pre-text">Hi! Do you know what makes a strong shopping experience? And what are the top reasons why your customers return their purchases?&zwnj;&nbsp;&zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp;&zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp;&zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp;&zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp;&zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp;&zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp;&zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp;</div>
