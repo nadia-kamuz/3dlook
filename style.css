@@ -300,6 +300,7 @@ button {
 }
 .content .main-content .card td img {
   display: block;
+  width: 100%;
 }
 .content .main-content .card-btn-container {
   display: inline-block;
@@ -308,9 +309,6 @@ button {
 }
 .content .main-content .card-btn-container .btn {
   color: #fff;
-}
-.content .main-content .magazine-image {
-  width: 100%;
 }
 .content .hidden-desktop.article table tr td .btn {
   margin-top: 0;
@@ -325,7 +323,7 @@ button {
   width: 100%;
 }
 .content .hidden-desktop.article table tr:nth-child(2) td {
-  height: 173px;
+  height: 275px;
   background-color: #fff;
   padding: 20px !important;
   padding-bottom: 48px;
